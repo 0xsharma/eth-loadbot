@@ -130,7 +130,7 @@ func (ts *TxSender) sendTransaction() (*types.Transaction, error) {
 	tx := types.NewTransaction(
 		nonce,
 		randomAddr,
-		big.NewInt(0), // 0 value
+		big.NewInt(1), // 1 wei value
 		ts.gasLimit,
 		gasPrice,
 		nil, // no data
