@@ -16,6 +16,13 @@ A Go application for sending Ethereum transactions in two modes: simple value tr
 
 ## Configuration
 
+Install Deps (Ubuntu) :
+```
+sudo apt update
+sudo apt install -y build-essential clang python3 curl git pkg-config
+```
+
+
 Copy `env.example` to `.env` and configure the following variables:
 
 ```bash
